@@ -40,18 +40,18 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "To-Do Web App",
+    title: "Jarvis - Voice Activated Multi-Function Assistant",
     description:
-      "A simple yet efficient To-Do web application built with Flask for backend logic and HTML/CSS for a clean, responsive interface.",
+      "An intelligent Python-based voice assistant enabling hands-free task execution through speech recognition and dynamic voice commands.",
     subDescription: [
-      "Implemented Flask to handle task creation, retrieval, updating, and deletion (CRUD operations).",
-      "Designed a responsive HTML/CSS frontend for seamless task management across devices.",
-      "Used Python server-side rendering to dynamically update task lists without page reloads.",
-      "Integrated local data storage (or database, if used) for persistent task tracking.",
+      "Developed voice-activated workflows to perform system operations and application control.",
+      "Integrated real-time information retrieval using APIs for enhanced productivity.",
+      "Implemented speech recognition and text-to-speech for natural, dynamic user interaction.",
+      "Automated repetitive tasks and enabled voice-based control for improved user experience.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/ToDo app.png",
+    image: "/assets/projects/Jarvis.png",
     tags: [
       {
         id: 1,
@@ -65,13 +65,13 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "Flask",
-        path: "/assets/logos/flask.svg",
+        name: "Python",
+        path: "/assets/logos/python.svg",
       },
       {
         id: 4,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
       
     ],
@@ -115,54 +115,53 @@ export const myProjects = [
       }
     ],
   },
-  ];
-  /* {
+  {
     id: 4,
-    title: "##Poject 4",
+    title: "Automated Code Review System",
     description:
-      "",
+      "A scalable multi-language code review platform built with Django REST Framework, enabling automated analysis and structured feedback.",
     subDescription: [
-      "",
-      "",
-      "",
-      "",
-    ],
+      "Integrated static analysis tools like pylint, ESLint, and javac for Python, JavaScript, and Java code review.",
+      "Developed REST APIs to handle code submissions, execute linters/compilers, and return detailed review comments.",
+      "Implemented severity-based feedback generation for enhanced code quality insights.",
+      "Designed robust error handling, temporary file management, and database integration for storing reviews and comments.",
+],
     href: "",
     logo: "",
     image: "/assets/projects/",
     tags: [
       {
         id: 1,
-        name: "#",
-        path: "/assets/logos/",
+        name: "Python",
+        path: "/assets/logos/python.svg",
       },
       {
         id: 2,
-        name: "#",
-        path: "/assets/logos/",
+        name: "Django",
+        path: "/assets/logos/django.svg",
       },
       {
         id: 3,
-        name: "#",
-        path: "/assets/logos/",
+        name: "Pylint",
+        path: "/assets/logos/pylint.png",
       },
       {
         id: 4,
-        name: "",
-        path: "/assets/logos/",
+        name: "ESlint",
+        path: "/assets/logos/eslint.svg",
       },
     ],
   },
   {
     id: 5,
-    title: "Project 5",
+    title: "Expense Tracker",
     description:
-      "",
+      "A Django-powered expense management application with advanced reporting, category tracking, and data visualization features.",
     subDescription: [
-      "",
-      "",
-      "",
-      "",
+      "Implemented user authentication and role-based access for secure expense management.",
+      "Integrated data analysis using Pandas for monthly summaries and insights.",
+      "Enabled export functionality with PDF (ReportLab) and Excel (OpenPyXL) support.",
+       "Designed a responsive UI with TailwindCSS and integrated visualizations for financial tracking.",
     ],
     href: "",
     logo: "",
@@ -170,27 +169,32 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/assets/logos/",
+        name: "Python",
+        path: "/assets/logos/python.svg",
       },
       {
         id: 2,
-        name: "HTML5",
-        path: "/assets/logos/,
+        name: "Django",
+        path: "/assets/logos/django.svg",
       },
       {
         id: 3,
-        name: "CSS3",
-        path: "/assets/logos/",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
         id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/",
+        name: "Matplotlib",
+        path: "/assets/logos/Matplotlib.svg",
+      },
+      {
+        id: 5,
+        name: "Pandas",
+        path: "/assets/logos/Pandas.svg",
       },
     ],
   },
-];*/
+];
 
 export const mySocials = [
   {

@@ -5,7 +5,4 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  plugins: [viteCompression()],
-  plugins: [visualizer({ open: true })],
-  treeshake: true,
 })
